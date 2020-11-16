@@ -1,0 +1,35 @@
+body{
+    background-color: #f1f1f1a6;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    height: 5em;
+    width: auto;
+    flex-direction: row;
+    background-color: #181818;
+    display:flex;
+    justify-content: space-between;
+    align-items: 1em;
+    box-shadow: rgb(150,150,150) 0px 3px 5px;
+    
+
+}
+
+.titulo{
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header .itemsNav{
+    list-style:none ;
+    font-family: Oswald;
+    color: whitesmoke;
+}
+
+
+
+
