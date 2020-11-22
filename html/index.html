@@ -1,47 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/59ffe184f6.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="/images/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script src="https://kit.fontawesome.com/59ffe184f6.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <header class="header">
-        <div class="icon">
-            <a href="/">
-            <img class="imglogo" src="../images/logo.png" alt="icon"></a>
-            <a href="index.html"><h1 class="titulo">Congelados Go!</h1></a>
-        </div>
-        <ul class="itemsNav">
-            <li><a href="/productos/listar">PRODUCTOS</a></li>
-            <li><a href="#">COCCIÓN </a></li>
-            <li><a href="#">REVENDER </a></li>
-            <li><a href="#">CONTACTO </a></li>
-            <li><a href="#">DELIVERY </a></li>
-            <li><a href="#">NOSOTROS</a></li>
-        </ul>
-    </header>
 
-    <nav class="navi">
+<body>
+  <!--Cabezera - Aquí encontraras el logo del ecommerce, el nombre de la página además las distintas categorías-->
+  <header class="header">
+    <div class="d-flexo">
+      <a href="/index.html">
+        <img class="imglogo" src="../images/logo.png" alt="icon"></a>
+      <a href="index.html">
+        <h1 class="titulo">Congelados Go!</h1>
+      </a>
+    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-light amber lighten-4 mb-4 itemsNav>
+
+      <!--Navbar brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="animated-icon1"><span></span><span></span><span></span></div>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <!-- Links -->
+
+      </div>
+      <!-- Collapsible content -->
 
     </nav>
-    <section class="cuerpo">
+    <!--/.Navbar-->
+    <ul class="itemsNav">
+      <li><a href="#">PRODUCTOS</a></li>
+      <li><a href="#">COCCIÓN </a></li>
+      <li><a href="#">REVENDER </a></li>
+      <li><a href="#">CONTACTO </a></li>
+      <li><a href="#">DELIVERY </a></li>
+      <li><a href="#">NOSOTROS</a></li>
+    </ul>
 
-    </section>
+  </header>
+  <!--Barra de navegación / buscador-->
+  <nav class="naveg">
 
-    <footer class="piePagina">
+  </nav>
+  <section class="cuerpo">
 
-    </footer>
-    
+  </section>
+
+  <footer class="piePagina">
+
+  </footer>
+
 </body>
+
 </html>
