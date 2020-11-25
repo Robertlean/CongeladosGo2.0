@@ -54,14 +54,13 @@ ul li a{
 
 .imglogo{
     height: auto;
-    width: 4em;
+    width: 3em;
 }
 
 .itemsNav li a{
     list-style: none;
     padding: 0.4em 0.6em;
     text-align:center;
-    align-items: center;
     border-right: solid 0.1em whitesmoke;
 }
 
@@ -96,4 +95,13 @@ ul li a{
 
 .navbar-item{
     padding: 0px
+}
+
+a.col-3{
+  padding-left: 0px;
+  flex: 0 0 15%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
 }
