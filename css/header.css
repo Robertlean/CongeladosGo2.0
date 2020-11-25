@@ -15,6 +15,7 @@ a:hover{
     align-items: center;
     box-shadow: rgb(150,150,150) 0px 3px 5px;
 }
+
 .d-flexo{
     justify-content: center;
     display: contents;
@@ -25,11 +26,13 @@ ul li a{
     color:whitesmoke;
 }
 
+.col{
+    padding: 0px;
+}
+
 .titulo{
     color: whitesmoke;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: auto;
-    padding: 0.3em;    
+    font-family: 'Source Sans Pro', sans-serif;    
     font-size: 3em;
     text-align:center;
     align-items: center;
@@ -46,11 +49,12 @@ ul li a{
     margin: auto;
     align-items: center;
     justify-content:flex-end;
+    background-color:#181818 ;
 }
 
 .imglogo{
     height: auto;
-    width: 6em;
+    width: 4em;
 }
 
 .itemsNav li a{
@@ -61,3 +65,35 @@ ul li a{
     border-right: solid 0.1em whitesmoke;
 }
 
+@media screen and (max-width: 768px){
+    .header{
+        height: 6em;
+        width: 100%;   
+        padding: 1em;
+        align-items: center;
+        box-shadow: rgb(150,150,150) 0px 3px 5px;
+    }
+
+    .d-flexo{
+        justify-content: center;
+        display: contents;
+        align-items: center;
+    }
+
+    .header .itemsNav{
+        font-size: 1em;
+    }
+
+    .titulo{
+        font-size: 3em;
+    }
+}
+
+.navbar{
+    background-color: #181818;
+    padding:0px;
+}
+
+.navbar-item{
+    padding: 0px
+}
