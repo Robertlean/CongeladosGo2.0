@@ -33,7 +33,7 @@ ul li a{
 .titulo{
     color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;    
-    font-size: 2.5em;
+    font-size: 3em;
     text-align:center;
     align-items: center;
     width: max-content;
@@ -70,10 +70,23 @@ ul li a{
         max-width: 2560px;
     }
 }
+@media screen and (max-width: 1024px){
+    .titulo{
+        font-size:2.3em;
+        justify-content: center;
+    }
+    .navbar-brand{
+        align-items: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+}
 
 @media screen and (max-width: 991px){
     .header{
-        height: 6em;
+        height: auto;
         width: 100%;   
         padding: 1em;
         align-items: center;
@@ -99,9 +112,18 @@ ul li a{
     }
 }
 
+@media screen and (max-width: 768px){
+    .itemsNav li a{
+        border-right: none;
+    }
+}
+
 @media screen and (max-width: 425px){
     .titulo{
         font-size: 2rem;
+    }
+    .header{
+        height:auto
     }
 }
 
@@ -118,9 +140,16 @@ ul li a{
     }
 }
 
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
 .navbar{
     background-color: #181818;
     padding:0px;
+    
 }
 .navbar-brand{
     font-size: 1.2em;
@@ -135,6 +164,8 @@ a.col-3{
   flex: 0 0 15%;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-nav .nav-link{
     color:whitesmoke;
+    font-family: Oswald;
+    font-size: 1.2em;
 }
