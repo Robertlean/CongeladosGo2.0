@@ -107,11 +107,17 @@ ul li a{
         display: flex;
         flex-direction: row-reverse;
     }
+    .form-control{
+        width: 20em
+    }
 }
 
 @media screen and (max-width: 768px){
     .itemsNav li a{
         border-right: none;
+    }
+    .form-inline .form-control{
+        width:15em
     }
 }
 

@@ -25,3 +25,30 @@
     background-color: #047c7c;
     border-color: #047c7c;
 }
+.form-inline .form-control{
+    width:none;
+}
+
+@media (min-width: 576px){
+    .form-inline .form-control{
+        width:auto
+    }
+}
+
+@media (min-width: 768px){
+    .form-inline .form-control{
+        width:12em
+    }
+}
+
+@media (min-width: 1024px){
+    .form-inline .form-control{
+        width:20em
+    }
+}
+
+@media (min-width: 1440px){
+    .form-inline .form-control{
+        width:30em;
+    }
+}
