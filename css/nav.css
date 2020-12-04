@@ -2,7 +2,7 @@
     margin: 0.8em 0;
     color: whitesmoke;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .row{
     display: flex;
@@ -15,4 +15,13 @@
 .perfil{
     display: flex;
     flex-direction: row-reverse;
+}
+.btn-outline-success{
+    color: #047c7c;
+    border-color:#047c7c;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #047c7c;
+    border-color: #047c7c;
 }
