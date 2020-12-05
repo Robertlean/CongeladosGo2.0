@@ -2,12 +2,22 @@
     margin: 0.8em 0;
     color: whitesmoke;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .row{
     display: flex;
     justify-content: space-between
 }
+
+.ubicacion{
+    align-items: center;
+    display: flex;
+    
+}
+.calle{
+    padding-left: .5em;
+}
+
 .buscador{
     display: flex;
     justify-content: center;
@@ -15,7 +25,9 @@
 .perfil{
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
+
 .btn-outline-success{
     color: #047c7c;
     border-color:#047c7c;
@@ -27,6 +39,9 @@
 }
 .form-inline .form-control{
     width:none;
+}
+.far .fa-search{
+    color:#047c7c
 }
 
 @media (min-width: 576px){
