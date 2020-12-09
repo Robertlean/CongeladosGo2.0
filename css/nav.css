@@ -2,11 +2,16 @@
     margin: 0.8em 0;
     color: whitesmoke;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .row{
     display: flex;
     justify-content: space-between
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
 }
 .buscador{
     display: flex;
@@ -15,7 +20,16 @@
 .perfil{
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
+
+.direccion{
+    margin-left: 0.4em
+}
+.usuario{
+    margin-right: 0.4em;
+}
+
 .btn-outline-success{
     color: #047c7c;
     border-color:#047c7c;
@@ -27,6 +41,22 @@
 }
 .form-inline .form-control{
     width:none;
+}
+
+.carousel{
+    height: 25em;
+    width: auto;
+    justify-content: center;
+    margin: 1em;
+    display: flex;
+}
+.fondo-carousel{
+    background-color: #047c7c;
+    
+    align-items: center;
+}
+.carousel.item{
+    align-items: center;
 }
 
 @media (min-width: 576px){
