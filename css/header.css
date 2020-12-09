@@ -62,11 +62,7 @@ ul li a{
     border-right: solid 0.1em whitesmoke;
 }
 
-@media screen and (min-width: 1408px){
-    .container {
-        max-width: 2560px;
-    }
-}
+
 @media screen and (max-width: 1024px){
     .titulo{
         font-size:2.3em;

@@ -10,14 +10,9 @@
 }
 
 .ubicacion{
-    align-items: center;
     display: flex;
-    
+    align-items: center;
 }
-.calle{
-    padding-left: .5em;
-}
-
 .buscador{
     display: flex;
     justify-content: center;
@@ -26,6 +21,13 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+}
+
+.direccion{
+    margin-left: 0.4em
+}
+.usuario{
+    margin-right: 0.4em;
 }
 
 .btn-outline-success{
@@ -42,6 +44,22 @@
 }
 .far .fa-search{
     color:#047c7c
+}
+
+.carousel{
+    height: 25em;
+    width: auto;
+    justify-content: center;
+    margin: 1em;
+    display: flex;
+}
+.fondo-carousel{
+    background-color: #047c7c;
+    
+    align-items: center;
+}
+.carousel.item{
+    align-items: center;
 }
 
 @media (min-width: 576px){
