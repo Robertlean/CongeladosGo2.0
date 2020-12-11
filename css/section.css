@@ -12,7 +12,7 @@
 }
 .producto{
     margin:5px;
-    border-top-left-radius: 1em;
+    border-radius: 1em;
     box-shadow: rgb(150,150,150) 0px 3px 5px;
     color: whitesmoke;
     
@@ -21,8 +21,7 @@
      background-color: #07a1a1;
      justify-content: center;
      display: flex;
-     padding: 0.2em
-     
+     padding: 0.2em     
 }
 .row .col-2{
     border-radius: 1em;
@@ -52,4 +51,44 @@
     border-top-left-radius: 0.3em;
     border-top-right-radius: 0.3em;
     box-shadow: rgb(150,150,150) 0px 3px 5px;
+}
+.info{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+.cantidad{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+}
+.precio{
+    color: whitesmoke;    
+    font-size: 1.3em;
+    background-color: #c71e08;
+    text-align: center;
+}
+.boton-info{
+    height: auto;
+    width: 50%;
+    background-color: #181818;
+    font-family: 'Source Sans Pro', sans-serif; 
+    color: whitesmoke;
+    border-bottom-left-radius: 0.3em;
+}
+.boton-comprar{
+    height: auto;
+    width: 50%;
+    
+    background-color: #181818;
+    font-family: 'Source Sans Pro', sans-serif; 
+    color: whitesmoke;
+    border-bottom-right-radius: 0.3em;
+    overflow: hidden;
+}
+.botonera{
+    display: flex;
+    height: 2em;
 }
