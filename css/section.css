@@ -91,4 +91,8 @@
 .botonera{
     display: flex;
     height: 2em;
+    align-items: flex-end;
+}
+.precio-botonera{
+    display: flex;
 }
