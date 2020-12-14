@@ -1,6 +1,7 @@
 .col-2{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    border-radius: .3em;
 }
 
 .contenedor-section{
@@ -12,7 +13,7 @@
 }
 .producto{
     margin:5px;
-    border-radius: 1em;
+    border-radius: .3em;
     box-shadow: rgb(150,150,150) 0px 3px 5px;
     color: whitesmoke;
     
@@ -22,9 +23,6 @@
      justify-content: center;
      display: flex;
      padding: 0.2em     
-}
-.row .col-2{
-    border-radius: 1em;
 }
 
 .populares{
@@ -40,6 +38,7 @@
     
 }
 .product1{    
+    
     width:100%;
     height: 10em;
 }
@@ -93,6 +92,19 @@
     height: 2em;
     align-items: flex-end;
 }
-.precio-botonera{
-    display: flex;
+.linea{
+    position:absolute;
+    width: auto;
+    height: 3em;
+    left: 7.5em;
+    top: 10em;
+    z-index: 1;
+}
+.lineaNoble{
+    position:absolute;
+    width: auto;
+    height: 3em;
+    left: 8em;
+    top: 10em;
+    z-index: 1;
 }
