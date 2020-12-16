@@ -1,0 +1,8 @@
+.pagosTarjeta{
+    border-top: #e2e2e2 1px solid;
+    margin-top: .8em;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
