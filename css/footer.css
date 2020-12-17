@@ -5,4 +5,23 @@
 .card-body{
     display: flex;
     justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+}
+.contenedor-footer{
+    padding: 1em 3.5em;
+    color:whitesmoke;
+    font-family: 'Cairo', sans-serif;
+}
+.copyRight{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagarCopyright{
+    font-family: 'Cairo', sans-serif;
+}
+.fb-page{
+    display: flex;
+    justify-content: center;
 }
