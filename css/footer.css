@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
 }
-.pagarCopyright{
+.Copyright{
     font-family: 'Cairo', sans-serif;
 }
 .fb-page{
@@ -31,4 +31,39 @@
     .contenedor-footer{
         padding: 1em 1em;
     }
+    
+}
+@media screen and (min-width: 768px){
+    .contenedor-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fb-page{
+        justify-content: flex-end;
+        padding: 1em 0;
+    }
+    .Copyright{
+        text-align: center;
+    }
+    .fb-laptop{
+        justify-content:center
+    }
+      
+}
+@media (min-width:300px) and (max-width: 767px){
+    .copyRight{
+        font-size: 0.7em;
+    }
+    .fb-page{
+        justify-content: center;
+        padding-top: 1em;
+    }
+
+    .fb-laptop{
+        display: none;
+    }
+    .Copyright{
+        text-align: center;
+    }  
 }

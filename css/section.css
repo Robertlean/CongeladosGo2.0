@@ -107,6 +107,16 @@
     top: 10em;
     z-index: 1;
 }
+
+@media screen and (max-width: 1024px){
+    .linea{
+        left: 5.5em;
+    }
+    .lineaNoble{
+        left: 6.3em;
+        
+    }
+}
 @media screen and (max-width: 769px){
     .linea{
         left: 10.5em;
@@ -121,5 +131,14 @@
     }
     .lineaNoble{
         left:9.3em
-    }    
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .linea{
+        left: 7em;
+    }
+    .lineaNoble{
+        left:7.6em
+    } 
 }
