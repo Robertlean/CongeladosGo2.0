@@ -8,12 +8,11 @@
     font-family: 'Cairo', sans-serif;
 }
 .contenedor-footer{
-    padding: 1em 3.5em;
+    padding: 1em 0;
     color:whitesmoke;
     font-family: 'Cairo', sans-serif;
 }
-.copyRight{
-    
+.copyRight{    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +22,13 @@
 }
 .fb-page{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 425px){
+    .copyRight{
+        font-size:0.5em;
+    }
+    .contenedor-footer{
+        padding: 1em 1em;
+    }
 }

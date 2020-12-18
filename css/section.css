@@ -115,11 +115,11 @@
         left: 11em;
     }
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 425px){
     .linea{
         left: 8.7em;
     }
     .lineaNoble{
         left:9.3em
-    }
+    }    
 }
