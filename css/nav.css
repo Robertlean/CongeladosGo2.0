@@ -74,12 +74,15 @@
 
 }
 
-@media (min-width: 768px){
+@media screen and (max-width: 768px){
     .form-inline .form-control{
         width:12em
     }
     .direccion{
-        font-size:0.7em
+        display:none
+    }
+    .usuario{
+        display: none;
     }
 }
 
