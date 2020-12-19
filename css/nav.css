@@ -6,9 +6,7 @@
 }
 .row{
     display: flex;
-    justify-content: space-between
 }
-
 .ubicacion{
     display: flex;
     align-items: center;
@@ -16,13 +14,16 @@
 .buscador{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .perfil{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
-
+.col-2{
+    justify-content: end;
+}
 .direccion{
     margin-left: 0.4em
 }
@@ -60,11 +61,6 @@
 }
 .carousel.item{
     align-items: center;
-}
-@media (min-width: 576px){
-    .form-inline .form-control{
-        width:7em;
-    }
 }
 
 @media (min-width: 576px){

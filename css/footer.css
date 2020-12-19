@@ -23,6 +23,12 @@
 .fb-page{
     display: flex;
     justify-content: flex-end;
+    width:100%;
+}
+.fb-laptop{
+    display: flex;
+    justify-content:flex-end;
+    width:100%
 }
 @media screen and (max-width: 425px){
     .copyRight{
@@ -33,37 +39,38 @@
     }
     
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .contenedor-section{
         display: flex;
         flex-direction: column;
     }
     
     .fb-page{
-        justify-content: flex-end;
-        padding: 1em 0;
+        display: flex;
+        justify-content: center;
+        
     }
     .Copyright{
         text-align: center;
     }
     .fb-laptop{
         display: flex;
-        justify-content:center
+        justify-content:center;
+        width:auto
+    }
+    .copyRight{
+        font-size: 0.8em;
     }
       
 }
 @media (min-width:300px) and (max-width: 767px){
-    .copyRight{
-        font-size: 0.7em;
-    }
+    
     .fb-page{
         justify-content: center;
         padding-top: 1em;
     }
 
-    .fb-laptop{
-        display: none;
-    }
+    
     .Copyright{
         text-align: center;
     }  
