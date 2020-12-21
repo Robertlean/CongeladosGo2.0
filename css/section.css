@@ -18,6 +18,13 @@
     color: whitesmoke;
     
 }
+.linkDetail{
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.linkDetail a:hover{
+    color:#07a1a1
+}
 .gusto{
      background-color: #07a1a1;
      justify-content: center;
