@@ -29,7 +29,7 @@
   <!--Cabezera - Aquí encontraras el logo del ecommerce, el nombre de la página además las distintas categorías-->
   <header class="container-fluid justify-content-between" style="background-color: #181818;">
     <nav class="navbar navbar-expand-lg navbar-dark d-flex">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/html/index.html">
         <img src="../images/logo.png" class="d-inline-block align-top imglogo" alt="Congelados Go" loading="lazy">
         <h1 class="titulo">Congelados Go!</h1>
       </a>
@@ -68,15 +68,15 @@
   <!--Barra de navegación / buscador - Perfil -->
   <nav class="naveg container-fluid" style="background-color: #181818;">
     <div class="row justify-content-between">
-      <div class="col-2 col-lg-3 ubicacion">
+      <div class="d-flex justify-content-start col-2 col-sm-2 col-md-2 col-lg-3 ubicacion">
         <i class="fas fa-home"></i>
         <div class="direccion">
-          Sarmiento 435, Pilar, Buenos Aires
+          Sarmiento 435, Pilar
         </div>
 
       </div>
 
-      <div class="col-8 col-lg-6 buscador">
+      <div class="justify-content-center col-8 col-sm-8 col-md-8 col-lg-6 buscador">
         <nav class="navbar navbar-dark ">
           <form class="form-inline">
             <input class="form-control mr-lg-2" type="search" placeholder="Buscar empanadas, pizzas, tartas y más"
@@ -86,12 +86,11 @@
         </nav>
       </div>
 
-      <div class="col-2 col-lg-3 perfil">
+      <div class="d-flex justify-content-start col-2 col-ms-2 col-md-2 col-lg-3 perfil">
         <i class="fas fa-user"></i>
         <div class="usuario">
           Roberto Veintemilla
         </div>
-
       </div>
     </div>
   </nav>
@@ -154,7 +153,7 @@
           <div class="precio-botonera">
             <div class="precio">$150</div>
             <div class="botonera">
-              <button class="boton-info">+INFO</button>
+              <button class="boton-info"><a href="/html/productDetail.html">+INFO</a> </button>
               <button class="boton-comprar"><i class="fas fa-cart-plus"></i></button>
             </div>
           </div>
@@ -347,37 +346,36 @@
     </div>
     <br><br>
     <div class="container-fluid contenedor-footer" style="background-color: #181818;">
-      <div class="container"><div class="row">
-        <div class="col-12 col-md-12 col-ms-6 col-lg-6 copyRight">
-          <p class="Copyright">Copyright 2020 <br>Todos los derechos reservados Congelados Go Pilar | Argentina
-            <br>Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la
-            verificación de stock. Los precios online y los planes de financiación para los productos
-            presentados/publicados en www.congeladosgo.com.ar son válidos exclusivamente para la compra vía internet en
-            las páginas antes mencionadas. Las especificaciones técnicas y descripciones están sujetas a cambios sin
-            previo aviso.
-          </p>
-        </div>
-        <div class="col-12 col-md-12 col-ms-6 col-lg-6 fb-laptop">
-          <div class="fb-page fb-laptop" data-href="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour"
-            data-tabs="timeline" data-width="650" data-height="220" data-small-header="true"
-            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour"
-              class="fb-xfbml-parse-ignore"><a
-                href="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour">Congelados Go
-                Pilar</a></blockquote>
-          </div>                  
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 copyRight">
+            <p class="Copyright">Copyright 2020 <br>Todos los derechos reservados Congelados Go Pilar | Argentina
+              <br>Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la
+              verificación de stock. Los precios online y los planes de financiación para los productos
+              presentados/publicados en www.congeladosgo.com.ar son válidos exclusivamente para la compra vía internet
+              en
+              las páginas antes mencionadas. Las especificaciones técnicas y descripciones están sujetas a cambios sin
+              previo aviso.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="fb-page fb-laptop d-flex justify-content-end"
+              data-href="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour"
+              data-tabs="timeline" data-width="500" data-height="220" data-small-header="true"
+              data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <blockquote cite="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour"
+                class="fb-xfbml-parse-ignore"><a
+                  href="https://www.facebook.com/Congelados-Go-Pilar-101760601380037/?modal=admin_todo_tour">Congelados
+                  Go
+                  Pilar</a></blockquote>
+            </div>
 
-          <div id="fb-root"></div>
-          <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v8.0" nonce="c52TyhBz"></script>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+              src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v8.0" nonce="c52TyhBz"></script>
+          </div>
         </div>
-        
-        
-
       </div>
-    </div>
-      
-
     </div>
 
   </footer>

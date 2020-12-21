@@ -20,10 +20,9 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-}
-.col-2{
     justify-content: end;
 }
+
 .direccion{
     margin-left: 0.4em
 }
@@ -35,13 +34,15 @@
     color: #047c7c;
     border-color:#047c7c;
 }
+.btn:not(:disabled):not(.disabled) {
+    display: flex;
+}
 .btn-outline-success:hover{
+    display: flex;
+    justify-content: center;
     color: #fff;
     background-color: #047c7c;
     border-color: #047c7c;
-}
-.form-inline .form-control{
-    width:none;
 }
 .far .fa-search{
     color:#047c7c
@@ -55,40 +56,56 @@
     display: flex;
 }
 .fondo-carousel{
-    background-color: #047c7c;
-    
+    background-color: #047c7c;    
     align-items: center;
 }
 .carousel.item{
     align-items: center;
 }
 
-@media (min-width: 576px){
+@media (max-width: 417px){
     .form-inline .form-control{
         width:9em;
+        height: 2em;
     }
-
+    .btn-outline-success{
+        width:auto;
+        height: 2em;
+    }
+}
+@media (min-width:417px) and (max-width:633px){    
+    .form-inline .form-control{
+        width:11em;
+        height: 2em;
+    }
+    .btn-outline-success{
+        width:auto;
+        height: 2em;
+    }
 }
 
 @media screen and (max-width: 768px){
-    .form-inline .form-control{
-        width:12em
-    }
     .direccion{
         display:none
     }
     .usuario{
         display: none;
     }
+    .btn-outline-success{
+        
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
     .form-inline .form-control{
         width:20em
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1180px){
     .form-inline .form-control{
         width:30em;
     }

@@ -12,6 +12,9 @@
     color:whitesmoke;
     font-family: 'Cairo', sans-serif;
 }
+.fb_iframe_widget_fluid{
+    display: flex;
+}
 .copyRight{    
     display: flex;
     justify-content: center;
@@ -38,6 +41,14 @@
         padding: 1em 1em;
     }
     
+}
+@media (max-width: 535px){
+    .fb-page{
+        display: none;
+    }
+    .fb-laptop{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px){
     .contenedor-section{
