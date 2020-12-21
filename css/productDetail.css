@@ -1,0 +1,15 @@
+.imgDetail{
+    
+    width: 40em;
+    height: auto;
+    border-radius: .3em;
+}
+.fotoProducto{
+    display: flex;
+    justify-content: center;
+}
+
+.ordenandoDetail{
+    display: flex;
+    justify-content: space-between;
+}
