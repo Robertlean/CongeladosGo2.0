@@ -1,15 +1,82 @@
-.imgDetail{
-    
+.imgDetail{    
     width: 40em;
     height: auto;
     border-radius: .3em;
 }
-.fotoProducto{
+.flex-center{
     display: flex;
     justify-content: center;
 }
-
 .ordenandoDetail{
     display: flex;
     justify-content: space-between;
+}
+.contenedor-detail{
+    border-radius:0.5em;
+    border: #e2e2e2 1px solid;    
+    margin-right: 1em;   
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detalle-vendidos p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    margin-top: .6em;
+}
+.precioDetalle{
+    font-size: 3em;
+    color:red;
+    
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+.estrella{
+    font-size: 1.3em;
+}
+.form-compraDetail{
+    display: flex;
+    flex-direction: column;
+    margin:1.5em 0em;
+    font-family:Arial, Helvetica, sans-serif
+}
+.botones-compraCarrito{
+    margin-bottom: 1em;
+    margin-top: 8em;   
+}
+.resumenDetail p{
+    font-family:Arial, Helvetica, sans-serif
 }

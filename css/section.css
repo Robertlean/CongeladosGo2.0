@@ -9,15 +9,8 @@
     background-color: #fff;
     border: #e2e2e2 1px solid;
     padding: 1em;
-    
+}
 
-}
-.contenedor-detail{
-    border-radius:0.5em;
-    border: #e2e2e2 1px solid;    
-    margin-right: 1em;
-    
-}
 .producto{
     margin:5px;
     border-radius: .3em;
