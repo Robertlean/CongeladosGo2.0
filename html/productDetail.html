@@ -111,10 +111,15 @@
           <a href="#"><img src="/images/jamon y queso.jpg" alt="" class="imgDetail"></a>
         </div>
         <div class="col-lg-4 contenedor-detail ">
-          <div class="detalle-vendidos">
+          <div class="detalle-vendidos flex-between">
             <p>2 vendidos</p>
+            <img src="/images/logo bien de campo.png" alt="" class="imglinea">
           </div>
           <div class="precio-valoracion">
+            <div class="flex-center resumenDetail">
+              <p>Empanadas de jamón y queso</p>              
+              <br>
+            </div>
             <div class="flex-center precioDetalle">$150</div>
             <div class="cantidad">Por media docena</div>
             <form>
@@ -140,33 +145,39 @@
                 --><label for="radio5" class="estrella">★</label>
               </p>
             </form>
-            <div class="flex-center resumenDetail">
-              <p>Media docena de empanadas rellenas de jamón y queso</p>
-              <br>
-            </div>
-            <img src="https://imgmp.mlstatic.com/org-img/banners/ar/medios/online/125X125.jpg"
-              title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago" width="160" height="160" />
+          
             <div class="form-compraDetail">
-              <strong>Stock disponible</strong>
-              <div class="">
-                <p>Cantidad: <select class="form-select" aria-label="Default select example">
-                    <option value="1">1 unidad</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                    <option value="4">4 unidades</option>
-                    <option value="5">5 unidades</option>
-                    <option value="6">Más de 5 unidades</option>
-                  </select></p>
-
+              <div style="display: flex;"><strong>Stock disponible </strong> <p><s>asd</s> | (8)</p></div>
+              <div class="eleccionCantidad">
+                <p>Cantidad:
+                  <form action="#" method="get">
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="1">1 unidad</option>
+                      <option value="2">2 unidades</option>
+                      <option value="3">3 unidades</option>
+                      <option value="4">4 unidades</option>
+                      <option value="5">5 unidades</option>
+                      <option value="6">Más de 5 unidades</option>
+                      <!--<input type="submit" value="Comprar ahora">
+                      <input type="submit" value=" Agregar al carrito">-->
+                      <div class="botones-compraCarrito flex-center">
+                        
+                      </div>
+                    </select>
+                    
+                  </form>
+                </p>
               </div>
-
             </div>
-
           </div>
-          <div class="botones-compraCarrito flex-center">
+          <form action="#" method="get" class="botones-compraCarrito flex-center">
+            <input type="submit" value="Comprar ahora" class="botonera-confirmacion">
+            <input type="submit" value=" Agregar al carrito" class="botonera-confirmacion">
+          </form>
+          <!--<div class="">
             <button class="comprarProducto"><a href="#">Comprar</a></button>
             <button class="agregarCarrito"><a href="#">Agregar al Carrito</a></button>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
