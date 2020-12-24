@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
 }
+.subcategorias{
+    display: flow-root;
+    justify-content: start;
+}
 .ordenandoDetail{
     display: flex;
     justify-content: space-between;
