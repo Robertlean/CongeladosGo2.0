@@ -100,3 +100,23 @@
 .botonera-confirmacion{
     margin: 0.2em 0em;
 }
+
+/* Responsive */
+
+@media (max-width:1024px){
+    .form-compraDetail {
+        margin: 0em
+    }
+}
+@media (min-width: 768px){
+    .contenedor-detail{
+        margin:.5em 1.8em;
+    }   
+    
+}
+
+@media (max-width: 425px){
+    .contenedor-detail{
+        margin:.5em 0em;
+    }
+}
