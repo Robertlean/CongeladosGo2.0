@@ -1,0 +1,8 @@
+.micarrito{
+    border-bottom: #cccccc 1px solid;
+    padding: .3em 0em;
+    margin-bottom: 0.5em;
+}
+.sinPadding{
+    padding:0em 1em 0em 0em; 
+}
