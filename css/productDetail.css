@@ -1,15 +1,122 @@
-.imgDetail{
-    
+.imgDetail{    
     width: 40em;
     height: auto;
     border-radius: .3em;
 }
-.fotoProducto{
+.flex-center{
     display: flex;
     justify-content: center;
 }
-
+.subcategorias{
+    display: flow-root;
+    justify-content: start;
+}
 .ordenandoDetail{
     display: flex;
     justify-content: space-between;
+}
+.contenedor-detail{
+    border-radius:0.5em;
+    border: #e2e2e2 1px solid;    
+    margin-right: 1em;   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detalle-vendidos p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    margin-top: .6em;
+}
+.precioDetalle{
+    font-size: 3em;
+    color:red;
+    
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+.estrella{
+    font-size: 1.3em;
+}
+.form-compraDetail{
+    display: flex;
+    flex-direction: column;
+    margin:1.5em 0em;
+    font-family:Arial, Helvetica, sans-serif
+}
+.botones-compraCarrito{
+    margin-bottom: 1em;   
+    flex-direction:column;
+}
+.resumenDetail{
+    font-family:Arial, Helvetica, sans-serif
+}
+.eleccionCantidad{
+    display:flex;   
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.imglinea{
+    width:2.5em;
+    height:auto;
+    padding-top:1em
+}
+.botonera-confirmacion{
+    margin: 0.2em 0em;
+}
+
+/* Responsive */
+
+@media (max-width:1024px){
+    .form-compraDetail {
+        margin: 0em
+    }
+}
+@media (min-width: 768px){
+    .contenedor-detail{
+        margin:.5em 1.8em;
+    }   
+    
+}
+
+@media (max-width: 425px){
+    .contenedor-detail{
+        margin:.5em 0em;
+    }
 }

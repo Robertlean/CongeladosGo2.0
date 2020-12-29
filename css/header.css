@@ -97,7 +97,7 @@ ul li a{
     }
 
     .titulo{
-        font-size: 3em;
+        font-size: 2em;
     }
     .container{
         display: flex;
@@ -130,7 +130,11 @@ ul li a{
     .perfil{
         font-size: .7em;
     }
+    .imglogo{
+        width:3em
+    }
 }
+
 
 @media screen and (max-width: 405px){
     .imglogo{
