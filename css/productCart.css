@@ -16,6 +16,8 @@
     width: auto;
     height: 4em;
     border-radius: .2em;
+    justify-content: flex-start;
+    padding: 0em
 }
 .caracteresCart{
     display: flex;
@@ -34,4 +36,8 @@
 }
 .font{
     font-family: 'Times New Roman', Times, serif;
+}
+
+.description{
+    padding: 0em
 }
