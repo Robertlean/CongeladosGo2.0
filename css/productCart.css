@@ -4,5 +4,30 @@
     margin-bottom: 0.5em;
 }
 .sinPadding{
-    padding:0em 1em 0em 0em; 
+    padding:0em 1em 0em 0em;
 }
+.listoComprar{
+    height: 10em;
+}
+.seccionCompra{
+    margin-bottom: .5em;
+}
+.icon-producto{
+    width: auto;
+    height: 4em;
+    border-radius: .2em;
+}
+.caracteresCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace
+}
+.Valorunit{
+    display: block;
+}
+.ValorxCompra{
+    display: grid;
+    text-align: center;
+}
+.font{font-family: 'Times New Roman', Times, serif;}
