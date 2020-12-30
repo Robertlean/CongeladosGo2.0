@@ -25,9 +25,13 @@
 }
 .Valorunit{
     display: block;
+    justify-content: space-between;
+    text-align: center;
 }
 .ValorxCompra{
     display: grid;
     text-align: center;
 }
-.font{font-family: 'Times New Roman', Times, serif;}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
