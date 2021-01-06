@@ -41,3 +41,34 @@
 .description{
     padding: 0em
 }
+.hola{
+    color:#4a4a4a
+}
+.hola:hover{
+    color:#4a4a4a
+}
+.subttl{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 0;
+}
+.ttl{
+    padding:1.2em 0em;
+}
+.botoncomprar{
+    margin: 1em 0em;
+    display: flex;
+    justify-content: flex-end;
+}
+.sinpadd{
+    padding:0em
+}
+
+@media (max-width: 768px){
+    .sinPadding{
+        padding: 0em
+    }
+    .micarrito{
+        flex-direction: row;
+    }
+}
