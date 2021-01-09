@@ -1,4 +1,79 @@
 .micarrito{
+<<<<<<< HEAD
     border-bottom: 1px #a0a0a0 solid;
     padding: 0.3em 0em;
+=======
+    border-bottom: #cccccc 1px solid;
+    padding: .3em 0em;
+    margin-bottom: 0.5em;
+}
+.sinPadding{
+    padding:0em 1em 0em 0em;
+}
+.listoComprar{
+    height: 10em;
+}
+.seccionCompra{
+    margin-bottom: .5em;
+}
+.icon-producto{
+    width: auto;
+    height: 4em;
+    border-radius: .2em;
+    justify-content: flex-start;
+    padding: 0em
+}
+.caracteresCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace
+}
+.Valorunit{
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+.ValorxCompra{
+    display: grid;
+    text-align: center;
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description{
+    padding: 0em
+}
+.hola{
+    color:#4a4a4a
+}
+.hola:hover{
+    color:#4a4a4a
+}
+.subttl{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 0;
+}
+.ttl{
+    padding:1.2em 0em;
+}
+.botoncomprar{
+    margin: 1em 0em;
+    display: flex;
+    justify-content: flex-end;
+}
+.sinpadd{
+    padding:0em
+}
+
+@media (max-width: 768px){
+    .sinPadding{
+        padding: 0em
+    }
+    .micarrito{
+        flex-direction: row;
+    }
+>>>>>>> 7d77edcad535da150874f1265dbc59d860c0e422
 }

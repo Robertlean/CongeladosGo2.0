@@ -1,0 +1,99 @@
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--color-grisClaro);
+    border-bottom: 1px solid var(--color-grisClaro);
+    color: var(--color-grisOscuro);
+}
+
+.ingreso{
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #181818;
+    color: white;
+    padding: 1em 3em;
+    margin: auto;
+}
+
+.log{
+    width: 10em;
+    height: 10em;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 85px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.user{
+    width: 5%;
+    height: 10px;
+    padding: 12px 8em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+.email{
+    width: 5%;
+    height: 10px;
+    padding: 12px 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+
+.formulario{
+    overflow: hidden;
+}
+
+.contraseña
+    {
+        width: 5%;
+        height: 10px;
+        padding: 12px 100px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    
+}
+
+.registro{
+        width: 5%;
+        height: 10px;
+        padding: 12px 80px;
+}
+
+input[type="submit" i] {
+    appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    margin-inline-start: 120px;
+}
