@@ -10,6 +10,12 @@
     border: #e2e2e2 1px solid;
     padding: 1em;
 }
+.contenedor-section-black{
+    border-radius: .2em;
+    background:#181818;
+    border: #e2e2e2 1px solid;
+    padding: 1em;
+}
 
 .producto{
     margin:5px;
