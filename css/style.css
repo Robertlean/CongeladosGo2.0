@@ -3,7 +3,11 @@
 @import "section.css";
 @import "footer.css";
 @import "productDetail.css";
+<<<<<<< HEAD
+@import "productCart.css";
+=======
 @import "productCart.css";
 @import "register.css";
 @import "login.css";
 @import "coccion.css";
+>>>>>>> 7d77edcad535da150874f1265dbc59d860c0e422

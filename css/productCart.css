@@ -1,4 +1,8 @@
 .micarrito{
+<<<<<<< HEAD
+    border-bottom: 1px #a0a0a0 solid;
+    padding: 0.3em 0em;
+=======
     border-bottom: #cccccc 1px solid;
     padding: .3em 0em;
     margin-bottom: 0.5em;
@@ -71,4 +75,5 @@
     .micarrito{
         flex-direction: row;
     }
+>>>>>>> 7d77edcad535da150874f1265dbc59d860c0e422
 }
