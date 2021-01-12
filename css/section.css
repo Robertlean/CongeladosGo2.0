@@ -13,8 +13,8 @@
 .contenedor-section-black{
     border-radius: .2em;
     background:#181818;
-    border: #e2e2e2 1px solid;
     padding: 1em;
+    box-shadow: rgb(150,150,150) 0px 3px 5px;
 }
 
 .producto{

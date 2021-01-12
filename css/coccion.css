@@ -34,7 +34,8 @@
 }
 .fontwhite{
     color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
 }
 .imgtext{
     display: flex;
