@@ -45,3 +45,8 @@
 .separador{
     margin-top: .8em;
 }
+@media screen and (max-width: 991px){
+    .displaynone{
+        display: block;
+    }
+}
